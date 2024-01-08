@@ -1,0 +1,58 @@
+/* Reset default margin and padding for all elements */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    margin-bottom: 10px;
+}
+
+/* Body styling with background image */
+body {
+    background-image: url('images/1327361.png'); 
+    background-size: cover;
+    color: #fffdfa; 
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header styling */
+h1 {
+    color: #4CAF50; /* Green color for the heading */
+    text-align: center;
+    margin: 20px 0; /* Add some space around the heading */
+    font-weight: bold;
+}
+
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Heading 2 styling */
+h2 {
+    color: #4CAF50; /* Green color for subheadings */
+    margin-top: 30px; /* Add space above subheadings */
+}
+
+/* Iframe styling */
+iframe {
+    display: block;
+    margin: 20px auto; /* Center the iframe and add space around it */
+}
+
+/* Container for the entire content */
+.container {
+    max-width: 800px; /* Set a maximum width for better readability on larger screens */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
